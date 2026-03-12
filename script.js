@@ -41,8 +41,8 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
+  if (x === "Tuesday") {
+    addText("tacos and beer");
   } else if (x === "vague") {
     addText("🥱👽🐙🪼🌘");
   } else if (x === "joyful") {
@@ -105,13 +105,13 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "avocado on toast",
+  "apples vs oranges",
+  "australian politics 2024",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "banana bread recipe",
+  "best way to cook pasta",
+  "baking without eggs",
 
   "can i seek to vary my family court order",
   "ccs has no cctv",

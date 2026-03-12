@@ -53,10 +53,11 @@ h5 {
 
 /* Style the card for the header/title card */
 .cardTitle {
+  color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/saturn.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
