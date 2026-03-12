@@ -219,7 +219,7 @@ function processPoem() {
   if (counter > 15) {
     removeFirstLine();
   }
-  setTimeout(processPoem, 1000);
+  setTimeout(processPoem, 2000);
 }
 // Start the process
 processPoem();
